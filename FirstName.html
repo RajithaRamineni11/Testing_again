@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/action_page.php">
+FirstName:<br>
+<input type="text" name="user id"><br>
+LastName:<br>
+<input type="Password" name="pwd" size='7'><br><br>
+Email:
+<input type="Email" name="email"><br><br>
+date:<input type="drop-down" name="month"value="month"><br>
+Select your favorite color:
+<input type="color"name="Fav Color"value="#00ff00" readonly><br><br>
+D.O.B:<input type="date" name="Birthday"><br>
+Quantity:
+  <input type="number" name="quantity"
+   min="0" max="100" step="5"><br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+<form action="/action_page.php" method="get"><br><br>
+  Points:<input type="range" name="points" min="0" max="10"><br>
+  Search Google:<input type="search" name="googlesearch"><br>
+   Select a time:<input type="time" name="usr_time"><br>
+  Telephone: <input type="tel" name="usrtel"><br>
+  Add your homepage: <input type="url" name="homepage"><br>
+  Select a week:<input type="week" name="year_week"><br>
+  <input type="submit">
+  <form action="/action_page.php" id="form1">
+First name: <input type="text" name="fname"><br>
+<input type="submit" value="Submit">
+</form>
+
+<p>The "Last name" field below is outside the form element, but still part of the form.</p>
+Last name: <input type="text" name="lname" form="form1">
+
+</form>
+</body>
+</html>
